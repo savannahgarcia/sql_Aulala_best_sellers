@@ -3,6 +3,8 @@
 ## 📘 Project Overview
 This project utilizes SQL and Tableau to analyze sales data to identify the best-selling styles and sizes at our boutique business. Data is pulled from the Clover POS system to help guide production, inventory planning, and sales decisions.
 
+Database: `Aulala_2025sales(in).csv`
+
 ---
 
 ## 🎯 Objectives
@@ -34,7 +36,7 @@ This project utilizes SQL and Tableau to analyze sales data to identify the best
 		    OR item_name LIKE '%Midi%'
         OR item_name LIKE '%Maxi%'
         OR item_name LIKE '%Dress%'
-      );
+      	);
 
     UPDATE sales_table
     SET category_name = 'Dresses'
@@ -44,7 +46,7 @@ This project utilizes SQL and Tableau to analyze sales data to identify the best
 		    OR item_name LIKE '%Midi%'
 		    OR item_name LIKE '%Maxi%'
 		    OR item_name LIKE '%Dress%'
-      );
+      	);
 
 - **Update typos/unstandardized names**
 
@@ -112,9 +114,13 @@ This project utilizes SQL and Tableau to analyze sales data to identify the best
   ORDER BY size + 0;
   ```
 
-## Findings & Reporting
+## Findings
+- **Top-Selling Styles:**: 
+- **Popular Sizes**: 
+
+## Visual Reporting
 [Tableau Dashboard](https://public.tableau.com/views/AulalaBestSellers/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-## Conclusion
--
----
+## Reccommendations
+- Style production:
+- Size production: Focus on porduction for sizes 0-8. 
