@@ -1,8 +1,7 @@
 # Aulala Best Sellers
 
 ## 📘 Project Overview
-This project utilizes SQL and Tableau to analyze sales data to identify the best-selling styles and sizes at our boutique business. Data is pulled from the Clover POS system to help guide production, inventory planning, and sales decisions.
-
+This project utilizes SQL and Tableau to analyze sales data and uncover the top-selling styles and sizes at Au La La Design. The analysis provides actionable insights to inform production, optimize inventory, and drive strategic sales decisions.
 Database: `Aulala_2025sales(in).csv`
 
 ---
@@ -114,6 +113,9 @@ Database: `Aulala_2025sales(in).csv`
   ORDER BY size + 0;
   ```
 
+---
+## ANYTHING UNDER THIS IS IN PROGRESS AYEEE
+
 ## Findings
 - **Top-Selling Styles:**: 
 - **Popular Sizes**: 
@@ -122,5 +124,6 @@ Database: `Aulala_2025sales(in).csv`
 [Tableau Dashboard](https://public.tableau.com/views/AulalaBestSellers/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Reccommendations
-- Style production:
-- Size production: Focus on porduction for sizes 0-8. 
+- Style production: Produce more Valerie Maxi, Val Midi
+- Size production: Focus on porduction for sizes 0-8.
+- Sales: Put low selling styles on sale
