@@ -1,7 +1,7 @@
 # Aulala Best Sellers
 
 ## 📘 Project Overview
-This project utilizes SQL and Tableau to analyze sales data and uncover the top-selling styles and sizes at Au La La Design. The analysis provides actionable insights to inform production, optimize inventory, and drive strategic sales decisions.
+This project analyzes sales data from Au La La Design to identify the boutique’s best-selling styles and sizes. By combining SQL for data cleaning and analysis with Tableau for visualization, it provides actionable insights to guide production planning, inventory management, and sales strategy.
 Database: `Aulala_2025sales(in).csv`
 
 ---
