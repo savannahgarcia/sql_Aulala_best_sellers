@@ -8,21 +8,21 @@ Database: `Aulala_2025sales(in).csv`
 
 ## 🎯 Objectives
 
-1. **Extract & Clean Sales Data**: Generate Excel report from clover POS system.
-2. **Import into SQL & Further Data Cleaning**: Remove unneccessary columns, identify and remove null values.
+1. **Extract & Format Sales Data**: Generate Excel report from clover POS system. Remove unneccessary columns, identify and remove null values.
+2. **Import into SQL & Clean Data**: Standardize categories, correct mislabeled items, and fix inconsistent naming conventions.
 3. **Data/Business Analysis**: Perform data analysis using SQL to identify best selling styles and sizes.
 4. **Display Findings**: Import cleaned and analyzed results into Tableau to generate visual dashboards.
 
 ## Project Structure
 
-### 1. Extract & Clean Sales Data
+### 1. Extract & Format Sales Data
 
 - **Clover**: Generate report and save as Excel file.
 - **Excel Data Cleaning**: Format for SQL (delete intro info, remove category totals, fill empty spaces with category)
   - Problem: “uncategorized” contained mostly dresses and accessories. These items already have categories but it will take too long to sort individually
   - Table structure: location,	category_name,	item_name,	gross_sales,	net_sales,	amount_sold,	discounts,	avg_item_size
 
-### 2. Import into SQL & Further Data Cleaning
+### 2. Import into SQL & Clean Data
 
 - **Import into SQL**: Import wizard
 - **Categorize dresses**: Find uncategorized dresses within table & move to accurate "dresses" category
