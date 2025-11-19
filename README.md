@@ -114,16 +114,32 @@ Database: `Aulala_2025sales(in).csv`
   ```
 
 ---
-## ANYTHING UNDER THIS IS IN PROGRESS AYEEE
+## Insights Summary
+Analysis of Au La La Design’s sales data highlights a clear pattern in customer preferences. Maxi and midi dresses dominate both units sold and total revenue. Sizes 0–4 represent the bulk of demand, accounting for nearly two-thirds of total units sold, while sizes 6–8 contribute steadily and larger sizes 10–14 show limited sales.
 
 ## Findings
-- **Top-Selling Styles:**: 
-- **Popular Sizes**: 
+- **Top-Selling Styles**:
+1. Valerie Maxi — 101 units sold, $20,361 in total sales
+2. Val Midi — 72 units sold, $14,170 in total sales
+3. Peony Mini — 59 units sold, $9,361 in total sales
+4. Everly Mini — 51 units sold, $9,120 in total sales
+5. Willow Maxi — 50 units sold, $10,671 in total sales
+6. Morganite Maxi — 47 units sold, $9,850 in total sales
+7. Sedona Midi — 43 units sold, $8,890 in total sales
+8. Windellia Midi — 37 units sold, $7,815 in total sales
+9. Lila Maxi — 36 units sold, $7,269 in total sales
+10. Rosalanh Midi — 34 units sold, $6,989 in total sales
+
+- **Sizes**:
+
+	- **Strongest-Performing Sizes: 0-4.** Nearly two-thirds (63.5%) of all sales come from sizes 0–4. Sizes 0 (350 units), 2 (337 units), and 4 (345 units) are the top sellers.
+	- **Mid-Tier Demand: Size 6–8.** About one-quarter (25.4%) of sales come from sizes 6–8.
+	- **Tier 3: Extended Sizes (10–14).** Only ~11% of sales come from sizes 10–14.
 
 ## Visual Reporting
 [Tableau Dashboard](https://public.tableau.com/views/AulalaBestSellers/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-## Reccommendations
-- Style production: Produce more Valerie Maxi, Val Midi
-- Size production: Focus on porduction for sizes 0-8.
-- Sales: Put low selling styles on sale
+## Recommendations
+- **Style production**: Create variations of the top-selling styles (new colors or limited edition prints) to capitalize on existing demand. Maxi and midi dresses drive the strongest overall performance and should remain the focus.
+- **Size production**: Sizes 0–8 account for ~87% of all sales. Focus production on these sizes while producing fewer units in sizes 10–14 to better align with demand.
+- **Sales**: Offer low-selling styles at a discount during Black Friday and other upcoming promotions. Use the Tableau dashboard to identify styles that sold fewer than 10 units for targeted sales efforts.
